@@ -10,4 +10,4 @@ def reverse_each_word(sentence)
   return reversed_sentence
 end
 
-reverse_each_word("Hello friend, how are you today?")
+#reverse_each_word("Hello friend, how are you today?")
