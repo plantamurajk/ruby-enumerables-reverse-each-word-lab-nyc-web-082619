@@ -3,5 +3,7 @@ def reverse_each_word(sentence)
   
   word_chars = sentence_array.collect {|word| word.split("")}
   
+  puts word_chars
+  
   
 end
