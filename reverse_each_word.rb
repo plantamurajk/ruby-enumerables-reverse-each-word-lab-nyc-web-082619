@@ -6,7 +6,7 @@ def reverse_each_word(sentence)
   reversed_chars = word_chars.collect {|word| word.reverse!}
   print reversed_chars
   reversed_sentence = reversed_chars.map {|chars| chars.join("")}
-  puts reversed_sentence
+  print reversed_sentence
   return reversed_sentence
 end
 
