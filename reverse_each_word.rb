@@ -1,13 +1,13 @@
 def reverse_each_word(sentence)
   sentence_array = sentence.split( " ")
-
+  print sentence_array
   word_chars = sentence_array.collect {|word| word.split("")}
   
   reversed_chars = word_chars.collect {|word| word.reverse!}
-  puts reversed_chars
+#  puts reversed_chars
   reversed_sentence = reversed_chars.join(" ")
-  puts reversed_sentence
+#  puts reversed_sentence
   return reversed_sentence
 end
 
-#reverse_each_word("Hello friend, how are you today?")
+reverse_each_word("Hello friend, how are you today?")
