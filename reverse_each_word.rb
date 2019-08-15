@@ -5,8 +5,8 @@ def reverse_each_word(sentence)
   print word_chars
   reversed_chars = word_chars.collect {|word| word.reverse!}
   print reversed_chars
-  reversed_sentence = reversed_chars.join(" ")
-#  puts reversed_sentence
+  reversed_sentence = reversed_chars.map {|chars| chars.join("")}
+  puts reversed_sentence
   return reversed_sentence
 end
 
